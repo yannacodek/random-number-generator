@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random number app</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<div id="container">
+		<div class="container-itens">
+			<h1>RANDOM NUMBER GENERATOR</h1>
+			
+			<form class="align-row">
+				<p>Minimum:</p>
+				<input id="min" type="number" value="0">
+			
+				
+			</form>
+			<form class="align-row">
+				<p>Maximum:</p>
+				<input class="space-itens" id="max" type="number" value="100">
+			</form>
+			<button id="btn" onclick="randomNumber()">Generate</button>
+			
+			<div id="result">
+				<p>0</p>
+			</div>
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
